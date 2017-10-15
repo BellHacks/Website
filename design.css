@@ -1,0 +1,98 @@
+body {
+	background-color: rgba(199, 193, 45, 0.15);
+}
+
+div #container {
+	margin-left: 202.5px;
+    margin-right: 203.3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+	/* overflow:hidden means that content exceeding box capacity will not be visible */
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: rgba(21, 179, 193, 0.34);
+	margin-left: 202.5px;
+    margin-right: 203.3px;
+}
+
+li {
+    float: left;
+	width:33.26%;
+	border-right: 1px solid rgba(16, 223, 236, 0.57);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding-right: 16px;
+    text-decoration: none;
+    /* border: 1px solid #e7e7e7; */
+    color: rgb(49, 129, 130);
+}
+
+/* selects last li to prevent border from coming on the right */
+li:last-of-type {
+    border: 0px;
+}
+
+#p1 {
+	margin-left: 202.5px;
+    /* margin-right: 203.3px; */
+    overflow: hidden;
+    width: 23.33%;
+    display: inline-block;
+	height: 388.5px;
+}
+
+#p2 {
+	/* margin-left: 202.5px; */
+    /* margin-right: 203.3px; */
+    overflow: hidden;
+    width: 21.33%;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#p3 {
+	/* margin-left: 202.5px; */
+    /* margin-right: 203.3px; */
+    overflow: hidden;
+    width: 22.33%;
+    display: inline-block;
+    height: 388.5px;
+    padding-left: 10px;
+}
+
+#others {
+	text-align: center;
+	color: rgb(6, 183, 253);
+}
+
+#kids {
+	text-align: center;
+	padding-right:223px;
+}
+
+#bell {
+	text-align: center;
+	padding-right:223px;	
+}
+
+#science {
+	text-align: center;
+	padding-right:223px;		
+}
+/*
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+*/
