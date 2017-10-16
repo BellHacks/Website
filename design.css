@@ -1,4 +1,4 @@
-body {
+/*body {
 	background-color: rgba(199, 193, 45, 0.15);
 }
 
@@ -10,7 +10,7 @@ div #container {
 ul {
     list-style-type: none;
     padding: 0;
-	/* overflow:hidden means that content exceeding box capacity will not be visible */
+	!* overflow:hidden means that content exceeding box capacity will not be visible *!
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: rgba(21, 179, 193, 0.34);
@@ -27,21 +27,21 @@ li {
 li a {
     display: block;
     text-align: center;
-    /* padding-top: 10px; */
+    !* padding-top: 10px; *!
     padding-right: 16px;
     text-decoration: none;
-    /* border: 1px solid #e7e7e7; */
+    !* border: 1px solid #e7e7e7; *!
     color: rgb(49, 129, 130);
 }
 
-/* selects last li to prevent border from coming on the right */
+!* selects last li to prevent border from coming on the right *!
 li:last-of-type {
     border: 0px;
 }
 
 #p1 {
 	margin-left: 202.5px;
-    /* margin-right: 203.3px; */
+    !* margin-right: 203.3px; *!
     overflow: hidden;
     width: 23.33%;
     display: inline-block;
@@ -49,8 +49,8 @@ li:last-of-type {
 }
 
 #p2 {
-	/* margin-left: 202.5px; */
-    /* margin-right: 203.3px; */
+	!* margin-left: 202.5px; *!
+    !* margin-right: 203.3px; *!
     overflow: hidden;
     width: 21.33%;
     display: inline-block;
@@ -58,8 +58,8 @@ li:last-of-type {
 }
 
 #p3 {
-	/* margin-left: 202.5px; */
-    /* margin-right: 203.3px; */
+	!* margin-left: 202.5px; *!
+    !* margin-right: 203.3px; *!
     overflow: hidden;
     width: 22.33%;
     display: inline-block;
@@ -67,7 +67,7 @@ li:last-of-type {
     padding-left: 10px;
 }
 
-#others {
+#title {
 	text-align: center;
 	color: rgb(6, 183, 253);
 }
@@ -79,14 +79,14 @@ li:last-of-type {
 
 #bell {
 	text-align: center;
-	padding-right:223px;	
+	padding-right:223px;
 }
 
 #science {
 	text-align: center;
-	padding-right:223px;		
+	padding-right:223px;
 }
-/*
+!*
 li a:hover:not(.active) {
     background-color: #ddd;
 }
@@ -95,4 +95,30 @@ li a.active {
     color: white;
     background-color: #4CAF50;
 }
-*/
+*!*/
+
+body {
+    background-color: rgba(199, 193, 45, 0.15);
+}
+
+.home-about {
+    vertical-align: top;
+    text-align: justify;
+    padding: 7px;
+}
+
+#home-header {
+    overflow: hidden;
+    /*border: 1px solid #e7e7e7;*/
+    background-color: rgba(21, 179, 193, 0.34);
+    height: 50px;
+}
+
+#home-header th {
+    color: rgb(49, 129, 130);
+}
+
+#title {
+    text-align: center;
+    color: rgb(6, 183, 253);
+}
